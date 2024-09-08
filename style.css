@@ -1,0 +1,224 @@
+*{
+     padding: 0;
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif !important;
+}
+body{
+     height: 100%;
+     background: #F0F0F0;
+}
+.navbar{
+     padding: 20px 5%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: sticky;
+     top: 0%;
+     z-index: 999;
+     box-shadow: inset 10px 10px 20px #ffffff, inset -5px -5px 10px #c7c7c7;
+     background-color: #F0F0F0;
+     border-bottom-left-radius: 25px;
+     border-bottom-right-radius: 25px;
+
+}
+
+
+.navbar .logo {
+     color: rgb(0, 0, 0);
+     /* border-bottom: 5px solid violet; */
+     box-shadow: inset 5px 5px 10px rgba(238, 130, 238, 0.158),  -5px -5px 10px rgba(238, 130, 238, 0.171);
+     background-color: #F0F0F0;
+     color: violet;
+     height: 40px;
+     width: 150px;
+     border-radius: 20PX;
+}
+.navbar .logo:hover{
+     background-color: violet;
+     color: white;
+     font-weight: 900;
+
+}
+.navbar .logo h1{
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+     margin-top: 5%;
+     margin-bottom: 5%;
+}
+h6{
+     text-align: center;
+     font-weight: bolder;
+     color: violet;
+     padding: 9px 9px;
+     background-color: #F0F0F0;
+     box-shadow: 0 0 20px rgb(0, 0, 0 ,0.5);
+     border-bottom-left-radius: 25px;
+     border-bottom-right-radius: 25px;
+}
+
+.manu-items li{
+     list-style: none;
+     display: inline-block;
+
+}
+.manu-items li a {
+     display: block;
+     margin-left: 20px;
+     border-bottom: 5px solid transparent;
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: bolder;
+     color: black;
+}
+.manu-items .active{
+     border-bottom: 4px solid violet;
+}
+.manu-items li a:hover{
+     border-bottom: 4px solid violet;
+
+     font-size: 25px;
+}
+
+
+.hero-area{
+    height: 100dvh;
+    width: 100dvw;
+}
+.hero-area img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+}
+
+/* content */
+
+.content{
+    position: relative;
+    z-index: 2;
+     display: flex;
+     padding: 0 5%;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     color: white;
+     height: 100vh;
+
+}
+
+
+
+.content h1{
+     font-size: 50px;
+}
+.content p {
+     font-size: 18px;
+     margin: top 20px; ;
+}
+.content button{
+     margin-top: 30px;
+     padding: 15px 30px;
+     background-color: #F0F0F0;
+     color: violet;
+     font-size: 15px;
+     font-weight: 900;
+     border: 2px solid violet;
+     border-radius: 26px;
+}
+.content button:hover{
+     background-color: violet;
+     color: white;
+}
+
+
+
+.title{
+     text-align: center;
+     margin: 50px 0;
+     color: violet;
+}
+
+
+
+
+
+/* products */
+.section{
+     padding: 10px 5px;
+}
+
+.products{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.products .card{
+     width: 290px;
+     background-color: #F0F0F0;
+     box-shadow: 0 10px 20px black;
+     border-radius: 20px;
+     margin-bottom: 20px;
+     margin-left: 25px;
+
+}
+.products .card:hover{
+     box-shadow: 0 18px 35px black;
+}
+.products .card img{
+     height: 220px;
+     width: 100%;
+}
+
+.products .card .catagory{
+     padding: 5px 20px;
+     opacity: 0.8;
+}
+
+.products .card .label{
+     font-weight: bolder;
+     font-size: 30px;
+     color: black;
+     text-align: center;
+}
+
+.products .card .box{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+}
+.products .card .box .price{
+     color: violet;
+     font-weight: bolder;
+     font-size: 20px;
+
+}
+
+.products .card .box .btn{
+     font-size: 15px;
+     color: violet;
+     padding: 9px 9px;
+     font-weight: 900;
+     border: 2px solid violet;
+     border-radius: 20px;
+     background-color: #F0F0F0;
+}
+.products .card .box .btn:hover{
+     background-color: purple;
+     color: white;
+}
+
+
+/* footer */
+
+footer{
+     height: 10vh;
+     background-color: violet;
+}
+footer p{
+     text-align: center;
+     line-height: 10vh;
+     font-weight: 900;
+     color: white;
+}
