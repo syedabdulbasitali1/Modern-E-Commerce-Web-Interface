@@ -1,7 +1,7 @@
 # Modern E-Commerce Web Interface
 
-![Preview Image](/web-preview-images/7.PNG)  
-![Preview Image](/web-preview-images/8.PNG)
+![Preview Image](/web-preview-images/8.PNG)  
+![Preview Image](/web-preview-images/7.PNG)
 
 ## Project Overview
 
